@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<p> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+</div>
+
+<div id = "center">
+
+	<p> This area will contain the center content area. </p>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the right content area. </p>
+	
+</div>
+
+<div id = "test">
+
+	<button> Change Something </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ("button").click (function () {
+		
+		// $ ("div:first").hide ();
+		// $ ("div:last").hide ();
+		// $ ("div:not(#test)").hide ();
+		// $ ("div:not(#test, #center)").hide ();
+		
+		$ ("#left p:first").hide ();
+		
+	});
+
+});
+
+</script>
+
+</html>

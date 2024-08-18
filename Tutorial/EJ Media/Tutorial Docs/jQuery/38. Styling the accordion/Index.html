@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<h2> Something to Ponder Over... </h2>
+	
+		<p>
+		
+			Our lives are limited. <br>
+			The focus is on how much time it takes to make a decision... <br>
+			In other words, the important thing is how quickly you can think.
+			
+		</p>
+		
+	<h2> Hence the Lesson... </h2>
+	
+		<p>
+			
+			Don't overthink things. <br>
+			In my experience, people who are absorbed in their thoughts are just as easy to fool as people who don't think at all. <br>
+			Think in moderation, act in moderation. <br>
+			That's the lesson for you here.
+			
+		</p>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	<img src = "Adventure Time.jpg" title = "Come along with me...">
+	
+</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ('img').tooltip (
+		
+		{show: {effect: "bounce", duration: 500}},
+		{hide: {effect: "explode", duration: 300}}
+		
+	);
+	
+	
+	$ ('#left').accordion (
+		
+		{collapsible: true},
+		{animate: 250},
+		{active: 0},
+		{heightStyle: "content"},
+		{icons: {
+			// header: "ui-icon-plus",
+			// activeHeader: "ui-icon-minus"}
+			
+			// header: "ui-icon-zoomin",
+			// activeHeader: "ui-icon-zoomout"}
+			
+			// header: "ui-icon-mail-closed",
+			// activeHeader: "ui-icon-mail-open"}
+			
+			// header: "ui-icon-folder-collapsed",
+			// activeHeader: "ui-icon-folder-open"}
+			
+			header: "ui-icon-caret-1-e",
+			activeHeader: "ui-icon-caret-1-s"}
+		},
+		
+	);
+	
+});
+
+</script>
+
+</html>

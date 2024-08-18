@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+		</div>
+		
+		<div class = "main">
+				
+			<img src = "Adventure Time.jpg">
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('img').resizable ({
+			
+			minWidth: 120,
+			maxWidth: 480,
+			minHeight: 67.5,
+			maxHeight: 270,
+			autoHide: true,		// Doesn't even show the icon in the first place.
+			// distance: 150,
+			ghost: true,
+			aspectRatio: true,	// Maintains the aspect-ratio.
+			animate: true,
+			animateDuration: "fast"		// This doesn't work unless "animate: true" is there above it.
+			
+		});
+		
+	});
+
+</script>
+
+</html>

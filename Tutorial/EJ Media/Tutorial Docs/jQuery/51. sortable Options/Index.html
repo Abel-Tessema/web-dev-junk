@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+		</div>
+		
+		<div class = "main">
+			
+			<div id = "sortable">
+				
+				<img src = "Adventure Time.jpg">
+				<img src = "Rebels.png">
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('#sortable').sortable ({
+			
+			opacity: .5,
+			// distance: 150,	// The image doesn't budge until it's moved 150 pixels.
+			// delay: 300,		// in milli-seconds
+			// disabled: true,
+			cursor: "move",
+			// containment: "parent",
+			containment: ".main",
+			// axis: "y",
+			grid: [10, 10]
+			
+		});
+		
+	});
+
+</script>
+
+</html>

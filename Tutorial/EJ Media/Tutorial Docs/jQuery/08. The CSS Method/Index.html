@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<p> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+</div>
+
+<div id = "center">
+
+	<ul>
+		<li> Bobcats </li>
+		<li> Wildcats </li>
+		<li></li>
+	</ul>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	
+</div>
+
+<div id = "test">
+
+	<button> Change Something </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ("button").click (function () {
+		
+		// $ ("#left").css ("property", "value");
+		// $ ("#left").css ("color", "blue");
+		// $ ("#left").css ("border", "inset 10px red");
+		
+		$ ("#left").css ({ "border": "inset 10px red" , "background-color": "black" , "color": "aqua" });
+		
+	});
+	
+});
+
+</script>
+
+</html>

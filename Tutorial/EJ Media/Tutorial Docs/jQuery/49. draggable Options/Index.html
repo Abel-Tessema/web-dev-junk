@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+		</div>
+		
+		<div class = "main">
+			
+			<div id = "draggable">
+				
+				<img src = "Adventure Time.jpg">
+				<img src = "Rebels.png">
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('img:nth-child(1)').draggable ({
+			
+			// grid: [10, 10],		// [width, height]
+			containment: ".main",
+			cursor: "move",
+			// delay: 300, // Doesn't budge for 300 milli-seconds.
+			revert: true,
+			axis: "y"
+			
+		});
+		
+		$ ('img:last').draggable ({
+			
+			revert: true
+			
+		});
+	
+	});
+
+</script>
+
+</html>

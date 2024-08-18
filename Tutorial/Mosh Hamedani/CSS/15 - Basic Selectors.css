@@ -1,0 +1,14 @@
+body {
+    margin: 10px;
+}
+#products {} /* by ID */
+.product {} /* by class */
+a[target] {} /* by attribute */
+a[href] {}
+a[href="https://google.com"] { /* by attribute and exact value */
+    color: orange;
+}
+a[href*="google"] {} /* href attribute values having 'google' in them */
+a[href^="https"] {} /* href attribute values starting with 'https' */
+a[href$=".com"] {} /* href attribute values ending with 'com' */
+a[href^="https"][href$=".com"] /* href attribute values starting with 'https' and ending with '.com' */

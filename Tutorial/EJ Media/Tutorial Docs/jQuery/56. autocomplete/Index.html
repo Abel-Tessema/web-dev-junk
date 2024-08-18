@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+			<div style = "margin: 10px;">
+				
+				<label for = "cities"> Cities:
+					<input type = "text" id = "cities" size = "11">
+				</label>
+				
+			</div>
+			
+		</div>
+		
+		
+		<div class = "main">
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('#cities').autocomplete ({source: [
+			
+			"Addis Abeba",
+			"Adama",
+			"Ambo",
+			"Bahir-Dar",
+			"Gonder",
+			"Hawassa",
+			"Jimma",
+			"Semera"
+			
+		]});
+		
+	});
+
+</script>
+
+</html>

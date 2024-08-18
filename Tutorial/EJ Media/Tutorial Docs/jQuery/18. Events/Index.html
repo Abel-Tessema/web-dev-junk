@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<h2></h2>
+	<p class = "para2"> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+</div>
+
+<div id = "center">
+
+	<ul>
+		<li> Bobcats </li>
+		<li> Wildcats </li>
+		<li></li>
+	</ul>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	<img src = "Adventure Time.jpg">
+	
+</div>
+
+<div id = "test">
+
+	<button> Change Something </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	// $ ('img').mouseover (function () {
+	// $ ('button').mouseover (function () {
+	// $ ('img').mouseover (function () {
+	
+	$ ('img').mouseover (function () {
+		
+		// $ ('p').text ('Adventure Time!');
+		// $ ('button').css ('color', 'red');
+		// $ ('#right').append ('<p> Adventure Time! </p>');
+		
+		$ ('#right').after ('<p> Adventure Time! </p>');
+		
+	});
+	
+});
+
+</script>
+
+</html>

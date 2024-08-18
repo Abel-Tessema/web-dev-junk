@@ -1,0 +1,120 @@
+body {
+
+color: green;
+font-family: Verdona, Arial, Geneva, Arial Black;
+font-weight: normal;
+background-color: black;
+font-size: 25px;
+background-image: url("21 - Background Image Property.jpg");
+
+}
+
+h1 {
+
+text-decoration: underline;
+font-size: 150%;
+text-align: center;
+
+}
+
+h2 {
+
+text-decoration: underline;
+font-size: 1.2em;
+text-align: center;
+
+}
+
+#p1 {
+
+color: blue;
+padding: 0;
+
+}
+
+p {
+
+color: purple;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #e5e4d7;
+padding: 20px 20px 20px 20px;
+border: 4px rgb(200,0,0) solid;
+border-radius: 10px;
+border-top-left-radius: 0;
+border-bottom-style: double;
+border-bottom-width: 8px;
+
+}
+
+#p4 {
+
+color: black;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #e5e4d7;
+padding: 20px;
+border-color: rgb(200,0,0);
+border-width: thick;
+border-style: ridge;
+margin: 20px;
+margin-top: 50px;
+margin-left: 400px;
+
+}
+
+img.img {
+
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 6px;
+background-color: silver;
+border-color: rgb(200,0,0);
+border-width: 4px;
+border-style: solid;
+
+}
+
+#divmain {
+
+color: black;
+
+}
+
+#divbass {
+
+color: black;
+
+}
+
+.highlight {
+
+background-color: #ffff00
+
+}
+
+.divcontent {
+
+color: black;
+
+}
+
+a:link {
+
+color: blue;
+
+}
+
+a:visited {
+
+color: aqua;
+
+}
+
+a:hover {
+
+color: lime;
+
+}

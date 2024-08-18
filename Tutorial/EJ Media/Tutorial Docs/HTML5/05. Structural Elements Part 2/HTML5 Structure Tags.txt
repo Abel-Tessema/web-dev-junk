@@ -1,0 +1,21 @@
+<article>
+
+<aside> = Sidebar
+
+<details>
+
+<figcaption>
+
+<figure>
+
+<footer>
+
+<header> = Header
+
+<main>
+
+<nav> = Navigation
+
+<section>
+
+<summary>

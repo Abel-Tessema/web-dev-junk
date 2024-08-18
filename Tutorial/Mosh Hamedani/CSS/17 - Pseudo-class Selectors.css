@@ -1,0 +1,7 @@
+body {
+    margin: 10px;
+}
+article:first-child {
+    font-size: 140%;
+    font-style: italic;
+}

@@ -1,0 +1,1 @@
+document.write ("You know it's been such a long time <br> Just bring the rockets, I'll bring the war");

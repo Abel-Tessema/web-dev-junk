@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+			<form>
+				
+				<select id = "monogatari">
+					
+					<option value = "none" selected disabled hidden> <b> Select Waifu/Enemy </b> </option>
+					<optgroup label = "Koyomi's Harem">
+					
+						<option value = "HS"> Hitagi Senjougahara </option>
+						<option value = "MH"> Mayoi Hachikuji </option>
+						<option value = "SO"> Shinobu Oshino </option>
+						<option value = "SK"> Suruga Kanbaru </option>
+						<option value = "TH"> Tsubasa Hanekawa </option>
+					
+					</optgroup>
+					
+					<optgroup label = "Koyomi's Frenemies">
+					
+						<option value = "AE"> Anti-existence </option>
+						<option value = "BH"> Black Hanekawa </option>
+						<option value = "Dr"> Dramaturgy </option>
+						<option value = "Ep"> Episode </option>
+						<option value = "GC"> Guillotine Cutter </option>
+					
+					</optgroup>
+					
+				</select>
+				
+			</form>
+			
+		</div>
+		
+		
+		<div class = "main">
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('#monogatari').selectmenu ({
+			
+			width: 183,
+			icons: {button: "ui-icon-caret-1-s"},
+			
+		});
+		
+	});
+
+</script>
+
+</html>

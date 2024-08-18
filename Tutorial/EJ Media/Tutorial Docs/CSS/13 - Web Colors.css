@@ -1,0 +1,36 @@
+body {
+
+color: green;
+font-family: Verdona, Arial, Geneva, Arial Black;
+font-weight: normal;
+background-color: #F07CEB;
+
+}
+
+h1, h2 {
+
+text-decoration: underline;
+
+}
+
+p.p1 {
+
+color: blue;
+font-size: 25px;
+
+}
+
+p.p2 {
+
+color: purple;
+font-size: 25px;
+
+}
+
+p.p3 {
+
+color: purple;
+font-size: 25px;
+font-style: italic;
+
+}

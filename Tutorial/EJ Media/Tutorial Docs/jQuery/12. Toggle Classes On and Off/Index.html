@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<h2></h2>
+	<p class = "para2"> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+</div>
+
+<div id = "center">
+
+	<ul>
+		<li> Bobcats </li>
+		<li> Wildcats </li>
+		<li></li>
+	</ul>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	
+</div>
+
+<div id = "test">
+
+	<button> Change Something </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ('button').click (function () {
+	
+		// $ ('p:last').addClass ('para');
+		
+		// $ ('p:first').removeClass ('para2');
+		// $ ('p:first').removeClass ();
+		// Since we're removing the class, we don't need to specify it.
+		
+		// toggleClass combines the effects of the former two (addClass and removeClass).
+		$ ('p:first').toggleClass ();
+		// I thought we needed to specify the class at least for the 'Toggle on' part, but it seems we don't. Yay JS/jQ!
+		
+	});
+	
+});
+
+</script>
+
+</html>

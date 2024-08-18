@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+		</div>
+		
+		<div class = "main">
+			
+			<div id = "mainTabs">
+			
+				<ul>
+					
+					<li> <a href = "#fate"> Fate Series </a> </li>
+					<li> <a href = "#monogatari"> Monogatari Series </a> </li>
+					<li> <a href = "#toaru"> Toaru Series </a> </li>
+					
+				</ul>
+			
+				<div id = "fate">
+					
+					<ol>
+						
+						<li> Fate/Apocrypha </li>
+						<li> Fate/Stay Night </li>
+						<li> Fate/Zero </li>
+						
+					</ol>
+					
+				</div>
+				
+				<div id = "monogatari">
+					
+					<ol>
+						
+						<li> Bakemonogatari </li>
+						<li> Kizumonogatari </li>
+						<li> Nisemonogatari </li>
+						
+					</ol>
+					
+				</div>
+				
+				<div id = "toaru">
+					
+					<ol>
+						
+						<li> A Certain Magical Index </li>
+						<li> A Certain Scientific Accelerator </li>
+						<li> A Certain Scientific Railgun </li>
+						
+					</ol>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+		
+		$ ('#mainTabs').tabs ({
+			
+			active: 1,
+			// collapsible: true,
+			// heightStyle: "fill"
+			heightStyle: "content",
+			event: "mouseover",
+			// disabled: [0, 1]
+			
+		});
+	
+	});
+
+</script>
+
+</html>

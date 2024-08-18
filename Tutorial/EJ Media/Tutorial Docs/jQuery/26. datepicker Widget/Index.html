@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<p class = "para2"> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+	<label for = "pickDate"> Pick a travel date:
+		<input type = "text" id = "pickDate">
+	</label>
+	
+	
+</div>
+
+<div id = "center">
+
+	<ul>
+		<li> Bobcats </li>
+		<li> Wildcats </li>
+	</ul>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	<img src = "Adventure Time.jpg">
+	
+</div>
+
+<div id = "test">
+
+	<button id = "slideUp"> Slide Up </button> &nbsp;
+	<button id = "slideDown"> Slide Down </button> &nbsp;
+	<button id = "slideToggle"> Toggle Slide </button> <br> <br>
+	<button id = "dynamicButton"> Slide Up </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ('#slideUp').click (function () {
+		
+		$ ('#right').slideUp ();
+		
+	});
+	
+	$ ('#slideDown').click (function () {
+		
+		$ ('#right').slideDown ();
+		
+	});
+	
+	$ ('#slideToggle').click (function () {
+		
+		$ ('#right').slideToggle ();
+		
+	});
+	
+	$ ('#dynamicButton').click (function () {
+		
+		$ ('#right').slideToggle ();
+		$ (this).text ((i, t) => t == "Slide Down" ? "Slide Up" : "Slide Down");
+		
+	});
+	
+	/* This also works:
+	
+	$ ('#dynamicButton').click (function () {
+		
+		$ ('#right').slideToggle ();
+		$ (this).html ($ (this).html () == "Slide Down" ? "Slide Up" : "Slide Down");
+		
+	}); */
+	
+	$ ('#pickDate').datepicker ();
+	
+});
+
+</script>
+
+</html>

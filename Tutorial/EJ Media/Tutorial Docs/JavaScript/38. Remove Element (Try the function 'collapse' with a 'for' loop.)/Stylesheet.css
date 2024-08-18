@@ -1,0 +1,33 @@
+body {
+	
+	background-color: #9C9F84;
+	font-family: Arial;
+	text-align: justify;
+	margin-bottom: 200px;
+	
+}
+
+#main {
+	
+	background-color: #E5E4D7;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: small;
+	
+}
+
+h2 {
+	
+	color: #CE282E;
+	background-color: #E5E4C7;
+	padding: 10px;
+	margin-left: -5px;
+	line-height: 1.5em;
+
+}
+
+p {
+	
+	line-height: 1.5em;
+	
+}

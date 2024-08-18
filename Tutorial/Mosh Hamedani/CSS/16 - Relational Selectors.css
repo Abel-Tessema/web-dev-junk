@@ -1,0 +1,9 @@
+body {
+    margin: 10px;
+}
+/* #products p {        // Selects all 'p' in 'products'    */
+/* #products > p {      // Selects only all 'p's which are direct children of 'products'      */
+/* #products + p {      // Selects the 'p' immediately next to 'products'       */
+#products ~ p { /*      // Selects all 'p's after 'products' which are siblings of the latter       */
+    color: orange;
+}

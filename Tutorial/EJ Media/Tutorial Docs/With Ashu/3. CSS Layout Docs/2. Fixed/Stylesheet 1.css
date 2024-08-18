@@ -1,0 +1,111 @@
+body
+{  
+    margin: 0px; 
+}
+ 
+#container
+{
+  width: 968px;
+  margin: 0px auto;
+ 
+}
+ 
+/* HEADER section ========================== */
+ 
+.header
+{  
+  background: #5c755e; 
+  height: 100px; 
+  width: 964px; 
+  border: solid 2px #000; 
+  color: white;
+}
+ 
+/* NAVIGATION section ====================== */
+ 
+#nav
+{  
+  background: black; 
+  height: 30px; 
+  width: 964px; 
+  border: solid 2px #000;  
+  font-weight: bold;
+}
+ 
+/* SIDEBAR ================================= */
+ 
+.sidebar
+{  
+  float: left; 
+  width: 176px; 
+  height: 9500px; 
+  background: #9c9f84; 
+  border-left: solid 2px #000; 
+  border-bottom: solid 2px #000;
+  border-bottom-left-radius: 1em;
+}
+ 
+ 
+ 
+/* MAIN ========================================= */
+ 
+.main
+{
+    float: left;
+    width: 786px;
+    height: 9500px;
+    background: #e5e4d7; 
+    border-right: solid 2px #000;  
+    border-left: solid 2px #000; 
+    border-bottom: solid 2px #000;
+    font-family: Arial;
+    font-size: 16px;
+    overflow: auto;
+    border-bottom-right-radius: 1em;
+ 
+}
+
+/* MINI-CONTENT PANEL =========================== */
+
+#box
+{
+    background-color: #4E5E65;
+    border: 2px solid #000;
+    border-radius: 1em;
+    font-size: .95em;
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    color: white;
+}
+
+.img
+{
+    display: block;
+    text-align: center;
+}
+
+img
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 600px) {
+
+.sidebar {
+
+display: none;
+
+}
+
+#logo {
+
+float: left;
+
+}
+
+}

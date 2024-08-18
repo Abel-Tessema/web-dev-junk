@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<header>
+		
+		</header>
+		
+		
+		<nav>
+		
+		</nav>
+		
+		
+		<aside>
+			
+		</aside>
+		
+		
+		<main>
+			
+			<article>
+				
+				<h2> To Live Means to <mark>Forget</mark>. </h2>
+				
+				<canvas id = "shera" width = "600" height = "400"> </canvas>
+				
+			</article>
+		
+		</main>
+		
+	</div>
+
+</body>
+
+<script>
+	
+	var canv = document.getElementById ('shera');
+	var cont = canv.getContext ('2d');
+	
+	cont.rect (190, 90, 170, 100);	// (abcissa, ordinate, width, height)
+	cont.lineWidth = 12;
+	cont.strokeStyle = "blue";
+	cont.stroke ();
+	
+	cont.closePath ();
+	
+	cont.fillStyle = "pink";
+	cont.fill ();	// Similar to 'stroke', it's a wrapper.
+	
+</script>
+
+</html>

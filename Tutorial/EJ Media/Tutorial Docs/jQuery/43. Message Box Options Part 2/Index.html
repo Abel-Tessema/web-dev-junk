@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.structure.css">
+
+<link rel = "stylesheet" type = "text/css" href = "jQuery UI 1.13.1\jquery-ui.theme.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<div class = "header">
+		
+		</div>
+		
+		
+		<div id = "nav">
+		
+		</div>
+		
+		
+		<div class = "sidebar">
+			
+			<ul id = "verticalMenu">
+				
+				<li> <a> Fate Series </a>
+					
+					<ul>
+						
+						<li> <a> Fate/Apocrypha </a> </li>
+						<li> <a> Fate/Stay Night </a> </li>
+						<li> <a> Fate/Zero </a> </li>
+						
+					</ul>
+					
+				</li>
+				
+				<li> - </li>
+				
+				<li> <a> Monogatari Series </a>
+					
+					<ul>
+						
+						<li> <a> Bakemonogatari </a> </li>
+						<li> <a> Kizumonogatari </a> </li>
+						<li> <a> Nisemonogatari </a> </li>
+						
+					</ul>
+					
+				</li>
+				
+				<li> - </li>
+				
+				<li> <a> Toaru Series </a>
+					
+					<ul>
+						
+						<li> <a> A Certain Magical Index </a> </li>
+						<li> <a> A Certain Scientific Accelerator </a> </li>
+						<li> <a> A Certain Scientific Railgun </a> </li>
+						
+					</ul>
+					
+				</li>
+				
+			</ul>
+			
+		</div>
+		
+		
+		<div class = "main">
+			
+			<div id = "box">
+			
+				<p> Pick your poison… </p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script src = "jQuery UI 1.13.1\jquery-ui.js"> </script>
+
+<script>
+
+	$ (document).ready (function () {
+	
+		$ ('#verticalMenu').menu ();
+		
+		$ ('#box').dialog ({
+			
+			title: "Heyo weeb!",
+			// {autoOpen: false}
+			autoOpen: true,
+			// draggable: false,
+			// resizable: false,
+			height: 150,
+			width: 200,
+			show: {effect: "bounce", duration: 500},
+			hide: {effect: "explode", duration: 300},
+			
+			closeOnEscape: false,
+			modal: true		// Makes the site inaccessible until the pop-up is closed.
+			
+			
+		}).css ('text-align', 'center');
+	
+	});
+
+</script>
+
+</html>

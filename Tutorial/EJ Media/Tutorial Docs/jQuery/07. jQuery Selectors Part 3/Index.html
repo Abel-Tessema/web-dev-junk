@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+<div id = "left">
+
+	<p> This is the first paragraph. </p>
+	<p> This is the second paragraph. </p>
+	
+</div>
+
+<div id = "center">
+
+	<ul>
+		<li> Bobcats </li>
+		<li> Wildcats </li>
+		<li></li>
+	</ul>
+	
+</div>
+
+<div id = "right">
+
+	<p> This area will contain the <b> right content </b> area. </p>
+	
+</div>
+
+<div id = "test">
+
+	<button> Change Something </button>
+
+</body>
+
+<script src = "jQuery 3.6.0 Dev.js"> </script>
+
+<script>
+
+$ (document).ready (function () {
+	
+	$ ("button").click (function () {
+		
+		// $ ("div:has(b)").hide ();
+		// $ ("p:has(b)").hide ();
+		// The nth-child index starts from 1, not 0.
+		// $ ("ul li:nth-child(2)").hide ();
+		// $ ("div:nth-child(3)").hide ();
+		
+		$ ("li:empty").hide ();
+		
+	});
+	
+});
+
+</script>
+
+</html>

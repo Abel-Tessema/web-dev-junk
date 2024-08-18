@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" href = "Stylesheet.css">
+
+</head>
+
+<body>
+
+	<div id = "container">
+		
+		<header>
+		
+		</header>
+		
+		
+		<nav>
+		
+		</nav>
+		
+		
+		<aside>
+			
+		</aside>
+		
+		
+		<main>
+			
+			<article>
+				
+				<h2> To Live Means to <mark>Forget</mark>. </h2>
+				
+				<canvas id = "shera" width = "600" height = "400"> </canvas>
+				
+			</article>
+		
+		</main>
+		
+	</div>
+
+</body>
+
+<script>
+	
+	var canv = document.getElementById ('shera');
+	var cont = canv.getContext ('2d');
+	
+	// cont.moveTo (10, 10);
+	
+	cont.moveTo (0, 0);
+	cont.lineTo (400, 40);
+	
+	cont.strokeStyle = "blue";
+	cont.lineWidth = 12;
+	cont.lineCap = "round";		// Another value we can use is "square".
+	
+	cont.stroke ();		// This line draws the object for us.
+	// cont.strokeStyle = "blue";		// Doesn't work here cuz it comes after the 'stroke' method, i.e, the line has already been drawn. The 'strokeStyle' property should come before the 'stroke' method so that it is applied first, then drawn.
+	
+</script>
+
+</html>

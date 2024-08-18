@@ -1,0 +1,31 @@
+ul {
+
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+
+ul li a {
+
+text-decoration: none;
+font-family: Arial;
+background-color: #000000;
+color: #ffffff;
+display: block;
+width: 47px;
+margin: 5px;
+padding: 5px;
+border: red inset 25px;
+border-radius: 3px;
+text-align: center;
+float: left;
+
+}
+
+ul li a:hover {
+
+background-color: pink;
+color: black;
+
+}

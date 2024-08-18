@@ -1,0 +1,32 @@
+Login page
+  - University email / ID number
+  - Password
+
+Sign up page
+  - University email / ID number
+  - Phone number (for resetting password)
+  - Password
+
+Home page
+  - "AASTU E-Learning"
+  - Link to the university website
+  - Login
+  - Sign up
+  - Hamburger menu
+    - Colleges and departments
+
+Student
+  - Homepage
+  - Profile page
+  - Teacher evaluation (appears near the end of semesters)
+  - Courses
+    - A drop-down thingy that expands
+    - Modules (PDF format, viewable within the page)
+    - PowerPoint slides (PPTX format, viewable within the page) (ViewerJS, Google Drive, Ms OneDrive (shared file))
+    - Assignments
+    - Worksheets
+    - Tests
+      - Date, coverage, number and types of questions
+  - A sidebar that shows pending assignments and tests
+  - Contact a teacher
+  - Sends notifications about assignments and tests

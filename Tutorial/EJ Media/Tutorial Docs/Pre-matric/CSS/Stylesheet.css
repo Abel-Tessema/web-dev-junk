@@ -1,0 +1,137 @@
+
+body {
+
+color: green;
+font-family: Verdana, Arial, Geneva, Arial Black;
+font-weight: normal;
+background-color: #FFCF79;
+font-size: 25px;
+background-image: url("Artistic Clouds.png");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+h1 {
+
+text-decoration: underline;
+font-size: 150%;
+text-align: center;
+
+}
+
+h2 {
+
+text-decoration: underline;
+font-size: 1.2em;
+text-align: center;
+
+}
+
+h3 {
+
+text-decoration: underline;
+
+}
+
+p {
+
+font-size: x-large;
+
+}
+
+#p1homepage {
+
+color: blue;
+
+}
+
+p.paragraph {
+
+color: aqua;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #E5E4D7;
+padding: 20px;
+border: black 2px solid;
+border-radius: 10px;
+border-bottom-style: dotted;
+border-bottom-color: red;
+border-bottom-width: 10px;
+background-image: url("Anime Original 11 3840 x 2160.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+#p4homepage {
+
+color: black;
+font-size: 15px;
+line-height: 1.5em;
+background-color: #E5E4D7;
+padding: 20px;
+border: #296A64 thick ridge;
+margin: 50px 20px 20px 400px;
+
+<!-- Border styles = solid, dashed, dotted, double, groove, ridge, inset, or
+                     outset. -->
+
+}
+
+img.image {
+
+display: block;
+text-align: center;
+margin: auto;
+padding: 3px;
+background-color: silver;
+border: black 2px solid;
+
+}
+
+#divmain {
+
+color: black;
+
+}
+
+#divbass {
+
+color: black;
+
+}
+
+.divcontent {
+
+color: black;
+
+}
+
+.highlight {
+
+background-color: #FFFF00;
+
+}
+
+a:link {
+
+color: blue;
+
+}
+
+a:visited {
+
+color: grey;
+
+}
+
+a:hover {
+
+color: #F15A51;
+
+}

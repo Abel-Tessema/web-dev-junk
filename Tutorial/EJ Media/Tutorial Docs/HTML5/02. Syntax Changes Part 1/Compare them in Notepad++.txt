@@ -1,0 +1,1 @@
+Open both of the pages in Notepad++, and use the "Compare" plugin in the menu bar to see the difference between them.

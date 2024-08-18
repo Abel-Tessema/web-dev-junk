@@ -1,0 +1,22 @@
+#left {
+	
+	width: 600px;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	background: #F8F8F8;
+	border: solid 2px black;
+	text-align: center;
+	
+}
+
+#right {
+	
+	width: 300px;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	background: #F0EFEF;
+	border: solid 2px black;
+	
+}
